@@ -11,7 +11,8 @@ global.email ="abdulbarcky2001@gmail.com"
 global.location="Dubai, United Arab Emirates."
 
 
-global.mongodb= process.env.MONGODB_URI || ""
+global.mongodb= process.env.MONGODB_URI || "mongodb+srv://trendingboss:Trendinggh1@trendingboss.va36qqn.mongodb.net/?retryWrites=true&w=majority&appName=trendingboss
+"
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
